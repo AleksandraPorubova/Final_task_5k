@@ -1,36 +1,27 @@
 body {
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 21px
 }
-.green {
+h2 {
+    text-align: center
+}
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    font-style: italic
+}
+code {
     color: blue;
 }
-.red {
-    color: green;
-}
-.blue {
+.command {
     color: red;
+    font-size: 18px;
+    font-weight: bold
 }
-li.green {
-    color: red;
+ul li {
+    text-decoration: underline
 }
-li.red {
-    color: blue;
-}
-li.blue {
-    color: green;
-}
-ul ol li.red {
-    color: cyan;
-}
-ul ol li.green {
-    color: orange;
-}
-ul ol li.blue {
-    color: magenta;
-}
-p.italic {
-    font-weight: italic;
-}
-p.bold {
-    font-style: bold;
+.violet {
+    color: rgb(50, 1, 113);
 }
